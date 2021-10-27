@@ -1373,7 +1373,7 @@ public class Client {
       resourcesStr = resourcesStr.substring(1);
     }
     if (resourcesStr.endsWith("]")) {
-      resourcesStr = resourcesStr.substring(0, resourcesStr.length() - 1);
+      resourcesStr = resourcesStr.substring(0, resourcesStr.length());
     }
 
     for (String resource : resourcesStr.trim().split(",")) {
